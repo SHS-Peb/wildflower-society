@@ -93,3 +93,80 @@ background-color: #e2d2d2;
   color: #8b3fa0;
   text-decoration: underline;
 }
+
+.contact-card {
+  background: rgba(245, 235, 248, 0.94);
+  border: 2px solid rgba(120, 60, 140, 0.35);
+  border-radius: 28px;
+
+  box-shadow:
+    0 8px 0 rgba(70, 30, 90, 0.45),
+    0 28px 70px rgba(0, 0, 0, 0.14);
+
+  backdrop-filter: blur(6px);
+}
+
+.contact-title {
+  font-size: clamp(32px, 4vw, 44px);
+  color: #7a2f8c;
+  text-shadow:
+    0 2px 0 rgba(255,255,255,0.7),
+    0 4px 0 rgba(70,30,90,0.45);
+}
+
+.contact-text {
+  color: rgba(45, 42, 42, 0.85);
+  line-height: 1.7;
+}
+
+.contact-input {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 14px;
+
+  border: 2px solid rgba(120, 60, 140, 0.25);
+  background: rgba(255,255,255,0.8);
+
+  font-size: 0.95rem;
+  color: rgba(45, 42, 42, 0.9);
+
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.contact-input::placeholder {
+  color: rgba(45, 42, 42, 0.45);
+}
+
+.contact-input:focus {
+  outline: none;
+  border-color: rgba(120, 60, 140, 0.5);
+  background: rgba(255,255,255,0.95);
+}
+
+.contact-button {
+  background: #7a2f8c;
+  color: white;
+
+  padding: 14px 36px;
+  border-radius: 999px;
+  font-weight: 600;
+
+  box-shadow:
+    0 6px 0 rgba(60, 90, 150, 0.6),
+    0 14px 30px rgba(0,0,0,0.15);
+
+  transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
+}
+
+.contact-button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.03);
+}
+
+.contact-button:active {
+  transform: translateY(1px);
+  box-shadow:
+    0 4px 0 rgba(60, 90, 150, 0.6),
+    0 10px 22px rgba(0,0,0,0.15);
+}

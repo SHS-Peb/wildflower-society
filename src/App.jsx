@@ -3,6 +3,7 @@ import bgRight from "./assets/bg-right.png";
 import StarField from "./components/StarField";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
       </h1>
     </section>
     <About />
+    <Contact />
       </main>
 
     </div>

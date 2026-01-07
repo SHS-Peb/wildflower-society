@@ -15,7 +15,7 @@ export default function About() {
         "
       >
         <h2 className="about-title mb-6">
-          About Wildflower Society
+          About
         </h2>
 
         <p className="about-text mb-4">
