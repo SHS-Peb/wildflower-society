@@ -61,3 +61,35 @@ background-color: #e2d2d2;
      0 6px 0 rgba(60, 20, 70, 0.55),         
      0 18px 30px rgba(0,0,0,0.12);           
 }
+
+.about-card {
+  background: rgba(245, 235, 248, 0.92);
+  border: 2px solid rgba(120, 60, 140, 0.35);
+  border-radius: 28px;
+
+  box-shadow:
+    0 8px 0 rgba(70, 30, 90, 0.45),
+    0 24px 60px rgba(0, 0, 0, 0.12);
+
+  backdrop-filter: blur(6px);
+}
+
+.about-title {
+  font-size: clamp(32px, 4vw, 44px);
+  color: #7a2f8c;
+  text-shadow:
+    0 2px 0 rgba(255,255,255,0.7),
+    0 4px 0 rgba(70,30,90,0.45);
+
+  font-family: inherit; 
+}
+
+.about-text {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: rgba(45, 42, 42, 0.85);
+}
+.about-text a {
+  color: #8b3fa0;
+  text-decoration: underline;
+}

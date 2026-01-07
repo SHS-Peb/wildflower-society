@@ -2,6 +2,7 @@ import bgLeft from "./assets/bg-left.png";
 import bgRight from "./assets/bg-right.png";
 import StarField from "./components/StarField";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 
 export default function App() {
   return (
@@ -25,16 +26,13 @@ export default function App() {
       <StarField count={20} />
 
       {/* Page content */}
-      <main className="relative z-10 pt-24">
-       <section id="home" className="min-h-[70vh] flex items-start justify-center pt-28">
+      <main className="relative z-10 pt-5">
+       <section id="home" className="min-h-[30vh] flex items-start justify-center pt-28">
       <h1 className="wildflower-title text-center">
-        The
-        <br />
-        Wildflower
-        <br />
-        Society
+        The Wildflower Society
       </h1>
     </section>
+    <About />
       </main>
 
     </div>
