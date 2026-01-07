@@ -1,16 +1,33 @@
-import './index.css'
-import treeBg from "./assets/imgs/tree.png";
+import bgLeft from "./assets/bg-left.png";
+import bgRight from "./assets/bg-right.png";
+import StarField from "./components/StarField";
 
-function App() {
-
+export default function App() {
   return (
-    <>
-      <main
-      className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative"
-      style={{ backgroundImage: `url(${treeBg})` }}
-    ></main>
-    </>
-  )
+    <div className="relative min-h-screen overflow-hidden bg-#e2d2d2;">
+      
+      {/* Left background image */}
+      <img
+        src={bgLeft}
+        alt=""
+        className="pointer-events-none fixed left-0 top-0 h-full w-auto object-contain z-0"
+      />
+
+      {/* Right background image */}
+      <img
+        src={bgRight}
+        alt=""
+        className="pointer-events-none fixed right-0 top-0 h-full w-auto object-contain z-0"
+      />
+
+      <StarField count={20} />
+
+      {/* Page content */}
+      <main className="relative z-10">
+       
+      </main>
+
+    </div>
+  );
 }
 
-export default App
