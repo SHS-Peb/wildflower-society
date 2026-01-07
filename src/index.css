@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+html { scroll-behavior: smooth; }
+
 body{
 background-color: #e2d2d2;
 }
@@ -20,4 +22,42 @@ background-color: #e2d2d2;
   animation-name: star-float;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+}
+
+.nav-pill{
+  background: rgba(232, 220, 245, 0.95);          
+  color: #6b2b7c;                                  
+  border: 2px solid rgba(60, 20, 70, 0.45);        
+  box-shadow:
+    0 3px 0 rgba(40, 10, 45, 0.55),               
+    0 10px 24px rgba(0, 0, 0, 0.08);            
+  text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+  transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
+}
+
+.nav-pill:hover{
+  transform: translateY(-1px);
+  filter: brightness(1.02);
+}
+
+.nav-pill:active{
+  transform: translateY(1px);
+  box-shadow:
+    0 2px 0 rgba(40, 10, 45, 0.55),
+    0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.wildflower-title{
+  font-size: clamp(56px, 7vw, 92px);
+  line-height: 0.95;
+  letter-spacing: 0.5px;
+
+  color: #7a2f8c; 
+  text-shadow:
+    -2px 0 #e9d8f3,
+     2px 0 #e9d8f3,
+     0 -2px #e9d8f3,
+     0  2px #e9d8f3,
+     0 6px 0 rgba(60, 20, 70, 0.55),         
+     0 18px 30px rgba(0,0,0,0.12);           
 }
