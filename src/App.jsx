@@ -4,6 +4,7 @@ import StarField from "./components/StarField";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Events from "./components/Events";
 import Contact from "./components/Contact";
 
 export default function App() {
@@ -35,6 +36,7 @@ export default function App() {
       </h1>
     </section>
     <About />
+    <Events />
     <Contact />
       </main>
 <Footer />
