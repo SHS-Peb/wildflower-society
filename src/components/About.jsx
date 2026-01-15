@@ -12,6 +12,9 @@ export default function About() {
           text-center
           px-10
           py-12
+          backdrop-blur-xl
+          border border-white/35
+          shadow-[0_14px_45px_rgba(0,0,0,0.10)]
         "
       >
         <h2 className="about-title mb-6">

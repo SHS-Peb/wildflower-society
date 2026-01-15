@@ -63,16 +63,16 @@ background-color: #e2d2d2;
 }
 
 .about-card {
-  background: rgba(245, 235, 248, 0.92);
-  border: 2px solid rgba(120, 60, 140, 0.35);
+  background: rgba(196, 157, 203, 0.591);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 28px;
 
-  box-shadow:
-    0 8px 0 rgba(70, 30, 90, 0.45),
-    0 24px 60px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.10);
 
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 }
+
 
 .about-title {
   font-size: clamp(32px, 4vw, 44px);
@@ -95,15 +95,14 @@ background-color: #e2d2d2;
 }
 
 .contact-card {
-  background: rgba(245, 235, 248, 0.94);
-  border: 2px solid rgba(120, 60, 140, 0.35);
+  background: rgba(196, 157, 203, 0.591);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 28px;
 
-  box-shadow:
-    0 8px 0 rgba(70, 30, 90, 0.45),
-    0 28px 70px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.10);
 
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 }
 
 .contact-title {
